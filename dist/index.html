@@ -4,22 +4,38 @@
     <meta charset="UTF-8">
     <title>Title</title>
     <link href="/dist/style.css" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Pacifico&display=swap" rel="stylesheet">
 </head>
 <body>
-<nav class="bg-blue-800 py-4 ">
+<nav class="py-4">
     <div class="container mx-auto px-2 flex justify-between" >
         <div>
-            <h1>myphpadmin</h1>
+            <h1 class="text-3xl font-Pacifico">Myphpadmin</h1>
         </div>
         <div>
-            <ul class="flex space-x-4">
-                <li><a href="#">home</a></li>
-                <li><a href="#">course</a></li>
-                <li><a href="#">bloge</a></li>
-                <li><a href="#">about</a></li>
+            <ul class="flex space-x-4 text-lg">
+                <li><a href="#">Home</a></li>
+                <li><a href="#">Course</a></li>
+                <li><a href="#">Blog</a></li>
+                <li><a href="#">About</a></li>
             </ul>
         </div>
     </div>
 </nav>
+<section id="banner" class="bg-indigo-900 py-16">
+    <div class="container mx-auto px-2 flex">
+        <div class="flex flex-col justify-center items-center w-1/2">
+            <h3>on sale $49.4</h3>
+            <h1>welcome to myphpadmin</h1>
+            <p>Hi dear,welcome to my website and ...</p>
+            <a>take a course now</a>
+        </div>
+        <div class="w-1/2">
+            <img src="images/banner-images.jpg">
+        </div>
+    </div>
+</section>
 </body>
 </html>
